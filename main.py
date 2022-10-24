@@ -13,3 +13,5 @@
                 print(questions[question_number][6])
                 print("Yritä uudestaan.")
                 print("")
+               
+        print(f"Oikeiden vastausten määrä: {correct_answers}")
