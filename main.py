@@ -1,0 +1,1 @@
+print(f"Oikeiden vastausten määrä: {correct_answers}")
