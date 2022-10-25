@@ -1,3 +1,4 @@
+
 correct_answers = 0
 question_number = 0
 
@@ -9,3 +10,15 @@ play_the_game = input("Lähdetkö ystävän luokse junan kyydillä? (n/y)")
 
 if play_the_game == "n":
     print("Jää sitten kotiin! ")
+
+
+elif play_the_game == "y":
+
+    while True:
+        continuing = input("Jatkatko matkaa? (y/n)")
+        print("")
+        if continuing == "n":
+            break
+        if continuing == "y":
+            print(questions[question_number][0])
+
